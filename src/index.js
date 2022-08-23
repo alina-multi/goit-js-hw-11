@@ -12,7 +12,7 @@ const gallery = document.querySelector(".gallery");
 const btnLoadMore = document.querySelector(".load-more");
 const pixabayApi = new PixabayAPI();
 
- lightbox = new SimpleLightbox('.gallery a',
+ let lightbox = new SimpleLightbox('.gallery a',
     {
     captionsData: "alt",
     captionDelay: 250,
